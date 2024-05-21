@@ -1,68 +1,365 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
+html body div * *::after {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+body {
+  background: rgba(250, 250, 251, 1);
+}
+
+.logo28 {
+  width: 28px;
+  height: 28px;
+  box-sizing: border-box;
+  border: 4px solid rgba(0, 115, 255, 1);
+  border-radius: 10px;
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  justify-content: end;
+  align-items: start;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.logo16 {
+  width: 16px;
+  height: 16px;
+  border: 4px solid rgba(0, 115, 255, 1);
+  border-radius: 999px;
+  position: absolute;
+  box-sizing: border-box;
+  margin-top: -2px;
+  margin-right: -2px;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
+.header_a {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.header_diva {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  width: auto;
+}
+
+.clk {
+  color: rgba(0, 98, 255, 1);
+}
+
+.clo {
+  color: rgba(146, 146, 157, 1);
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logoName {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  color: rgba(68, 68, 79, 1);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  height: 70px;
+  box-sizing: border-box;
+  margin-bottom: 24px;
+  border-bottom: 1px solid rgba(226, 226, 234, 1);
+  background: #fff;
+}
+
+.header_nav {
+  display: flex;
+  gap: 36px;
+}
+
+.bb::after {
+  content: "";
+  display: flex;
+  width: 105px;
+  background: rgba(0, 98, 255, 1);
+  position: absolute;
+  margin-top: 46px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 3px;
+}
+.bb {
+  display: flex;
+  justify-content: center;
+}
+
+.y360 {
+  transform: rotateY(180deg);
+  margin-left: 8px;
+}
+
+.btn {
+  border: none;
+  background: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_div1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn_oq {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: center;
+  color: rgba(23, 23, 37, 1);
+  display: flex;
+  gap: 24px;
+}
+
+.btn_kok {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  background: rgba(0, 98, 255, 1);
+  padding: 12px 18px 12px 18px;
+  border-radius: 10px;
+}
+
+.app {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.from_div1 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.input {
+  border: 1px solid rgba(235, 234, 237, 1);
+  width: 672px;
+  height: 48px;
+  border-radius: 5px;
+  padding-left: 12px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.from {
+  border-top: 1px solid rgba(226, 226, 234, 1);
+  margin-top: 16px;
+  padding-top: 16px;
+}
+.form {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.habar {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: rgba(23, 23, 37, 1);
+  margin-bottom: 24px;
+}
+
+.bio {
+  display: block;
+  width: 672px;
+  height: 273px;
+  box-sizing: border-box;
+  padding: 24px;
+  border: 1px solid rgba(235, 234, 237, 1);
+  outline: #000;
+}
+
+.tillar {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.tillar button {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  width: 251px;
+}
+
+.tillar_btn {
+  border: 1px solid rgba(235, 234, 237, 1);
+  background: #fff;
+  box-sizing: border-box;
+  color: rgba(0, 98, 255, 1);
+}
+.bn {
+  border: none;
+  background: inherit;
+}
+
+.sh {
+  display: flex;
+  gap: 8px;
+  border: none;
+  background: inherit;
+  font-family: Poppins;
+  font-size: 14px;
   font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  line-height: 16px;
+  color: rgba(0, 98, 255, 1);
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.habar_div {
+  display: flex;
+  justify-content: space-between;
+}
+.habar {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: left;
+  color: rgba(68, 68, 79, 1);
+}
+.div {
+  width: 672px;
+}
+main {
+  box-sizing: border-box;
+  max-width: 1392px;
+  margin: 0 auto;
+  border: 1px solid rgba(226, 226, 234, 1);
+  padding: 24px 16px 16px 16px;
+  border-radius: 24px;
+  background: #fff;
+  margin-bottom: 24px;
+}
+
+.ikki {
+  border: 1px solid rgba(226, 226, 234, 1);
+  padding: 24px;
+  border-radius: 24px;
+  background: rgba(250, 250, 251, 1);
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  display: none;
 }
